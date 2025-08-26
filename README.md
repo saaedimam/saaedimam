@@ -1,18 +1,12 @@
 <!-- Banner -->
 <p align="center">
-  <img src="assets/iori-banner.png" alt="IORI Banner" width="100%" />
+  <img src="assets/iori-banner-hd.png" alt="IORI Banner" width="100%" />
 </p>
 
 ---
 
-<div align="center" style="
-  background-image: url('assets/bg.jpeg');
-  background-size: cover;
-  background-position: center;
-  border-radius: 12px;
-  padding: 60px 20px;
-  color: white;
-">
+<!-- Intro Section -->
+<div align="center">
 
 # 👋 Hi, I'm IORI (Saaed Imam)  
 🚀 Full-stack Developer | 🎨 Creator | 🎵 Music Lover  
@@ -32,12 +26,12 @@
 
 ## 📊 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=saaedimam&show_icons=true&theme=radical&hide_border=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=saaedimam&theme=tokyonight-duo&hide_border=true&short_numbers=true&date_format=M%20j%5B%2C%20Y%5D" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=saaedimam&show_icons=true&theme=radical&hide_border=true" width="48%" alt="GitHub Stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=saaedimam&theme=tokyonight-duo&hide_border=true&short_numbers=true&date_format=M%20j%5B%2C%20Y%5D" width="48%" alt="GitHub Streak"/>
 </div>
 
 <p align="center">
-  <img src="assets/github-stats.png" alt="Custom GitHub Stats Thumbnail" width="60%" />
+  <img src="assets/github-stats-hd.png" alt="Custom GitHub Stats Thumbnail" width="70%" />
 </p>
 
 ---
@@ -51,11 +45,11 @@
 
 ## 🎵 Now Playing on Spotify
 <p align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/view?uid=21azivq6655hsqzwprnbrq57i&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=true" alt="Now Playing" width="400" />
+  <img src="https://spotify-github-profile.vercel.app/api/view?uid=21azivq6655hsqzwprnbrq57i&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=true" alt="Now Playing on Spotify" width="400" />
 </p>
 
 <p align="center">
-  <img src="assets/spotify-now.png" alt="Spotify Now Thumbnail" width="400" />
+  <img src="assets/spotify-now-hd.png" alt="Spotify Now Thumbnail (HD)" width="400" />
 </p>
 
 ---
@@ -63,7 +57,7 @@
 ## 🎧 My Favorite Playlist
 <p align="center">
   <a href="https://open.spotify.com/playlist/6QFaYJtiz3g8pmzHZE4U3A" target="_blank">
-    <img src="assets/spotify-playlist.png" width="400" alt="Spotify Playlist Thumbnail" />
+    <img src="assets/spotify-playlist-hd.png" width="400" alt="Spotify Playlist Thumbnail (HD)" />
   </a>
 </p>
 
@@ -77,5 +71,5 @@
 ---
 
 <!--START_SECTION:update-->
-Last updated: 2025-08-21 12:00:00 UTC
+Last updated: 2025-08-26 15:00:00 UTC
 <!--END_SECTION:update-->
