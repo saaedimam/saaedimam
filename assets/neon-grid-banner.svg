@@ -1,0 +1,29 @@
+<svg viewBox="0 0 1600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00fff0">
+        <animate attributeName="stop-color" values="#00fff0;#ff00ff;#00fff0" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ff00ff">
+        <animate attributeName="stop-color" values="#ff00ff;#00fff0;#ff00ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="url(#g)" stroke-width="1" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#0b0f14"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+  <g opacity="0.9">
+    <text x="50%" y="55%" text-anchor="middle" fill="url(#g)" font-size="96" font-family="Monaco,Consolas,monospace">
+      IORI • VIBE CODER
+      <animate attributeName="letter-spacing" values="0;4;0" dur="3s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <g opacity="0.25">
+    <rect x="-1600" y="0" width="1600" height="400" fill="url(#g)">
+      <animate attributeName="x" values="-1600;1600" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

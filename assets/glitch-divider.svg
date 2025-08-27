@@ -1,0 +1,12 @@
+<svg viewBox="0 0 1600 36" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="36" fill="#0b0f14"/>
+  <g>
+    <rect x="0" y="16" width="1600" height="4" fill="#00fff0"/>
+    <rect x="0" y="16" width="1600" height="4" fill="#ff00ff" opacity="0.5">
+      <animate attributeName="x" values="-8;8;-8" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="16" width="1600" height="4" fill="#00aaff" opacity="0.35">
+      <animate attributeName="y" values="15;17;15" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
