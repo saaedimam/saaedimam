@@ -1,5 +1,4 @@
 
-<<<<<<< codex/deploy-enhanced-github-profile-with-svgs-4myhtn
 <h1 align="center">⚡ Vibe Coder | Building the Future One Commit at a Time ⚡</h1>
 
 <!-- Enhanced typing effect -->
@@ -199,3 +198,4 @@
 </div>
 =======
 >>>>>>> main
+
