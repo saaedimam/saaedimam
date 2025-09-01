@@ -1,0 +1,52 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skillGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00fff0"/>
+      <stop offset="100%" stop-color="#ff00ff"/>
+    </linearGradient>
+    <linearGradient id="skillGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff00ff"/>
+      <stop offset="100%" stop-color="#00aaff"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- React/Next.js -->
+  <text x="20" y="35" font-family="monospace" font-size="14" fill="#00fff0">React/Next.js</text>
+  <rect x="20" y="45" width="400" height="8" rx="4" fill="#1a1a2e" stroke="#00fff0"/>
+  <rect x="20" y="45" width="0" height="8" rx="4" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;360" dur="2s" begin="0.5s" fill="freeze"/>
+  </rect>
+  <text x="430" y="53" font-family="monospace" font-size="12" fill="#00fff0">90%</text>
+  
+  <!-- Node.js -->
+  <text x="20" y="85" font-family="monospace" font-size="14" fill="#00fff0">Node.js/Express</text>
+  <rect x="20" y="95" width="400" height="8" rx="4" fill="#1a1a2e" stroke="#00fff0"/>
+  <rect x="20" y="95" width="0" height="8" rx="4" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;320" dur="2s" begin="1s" fill="freeze"/>
+  </rect>
+  <text x="430" y="103" font-family="monospace" font-size="12" fill="#00fff0">80%</text>
+  
+  <!-- Python -->
+  <text x="20" y="135" font-family="monospace" font-size="14" fill="#00fff0">Python/Django</text>
+  <rect x="20" y="145" width="400" height="8" rx="4" fill="#1a1a2e" stroke="#00fff0"/>
+  <rect x="20" y="145" width="0" height="8" rx="4" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;300" dur="2s" begin="1.5s" fill="freeze"/>
+  </rect>
+  <text x="430" y="153" font-family="monospace" font-size="12" fill="#00fff0">75%</text>
+  
+  <!-- Docker/AWS -->
+  <text x="20" y="185" font-family="monospace" font-size="14" fill="#00fff0">Docker/AWS</text>
+  <rect x="20" y="195" width="400" height="8" rx="4" fill="#1a1a2e" stroke="#00fff0"/>
+  <rect x="20" y="195" width="0" height="8" rx="4" fill="url(#skillGrad2)">
+    <animate attributeName="width" values="0;280" dur="2s" begin="2s" fill="freeze"/>
+  </rect>
+  <text x="430" y="203" font-family="monospace" font-size="12" fill="#00fff0">70%</text>
+  
+  <!-- Database -->
+  <text x="20" y="235" font-family="monospace" font-size="14" fill="#00fff0">PostgreSQL/Redis</text>
+  <rect x="20" y="245" width="400" height="8" rx="4" fill="#1a1a2e" stroke="#00fff0"/>
+  <rect x="20" y="245" width="0" height="8" rx="4" fill="url(#skillGrad1)">
+    <animate attributeName="width" values="0;340" dur="2s" begin="2.5s" fill="freeze"/>
+  </rect>
+  <text x="430" y="253" font-family="monospace" font-size="12" fill="#00fff0">85%</text>
+</svg>

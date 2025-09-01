@@ -1,0 +1,61 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect x="10" y="10" width="780" height="280" rx="10" fill="#1a1a2e" stroke="#00fff0" stroke-width="2" filter="url(#glow)"/>
+  <rect x="10" y="10" width="780" height="35" rx="10 10 0 0" fill="#16213e"/>
+  
+  <!-- Terminal buttons -->
+  <circle cx="35" cy="27" r="5" fill="#ff5f56"/>
+  <circle cx="55" cy="27" r="5" fill="#ffbd2e"/>
+  <circle cx="75" cy="27" r="5" fill="#27ca3f"/>
+  
+  <text x="400" y="32" text-anchor="middle" font-family="monospace" font-size="12" fill="#8b949e">iori@vibe-machine:~$</text>
+  
+  <!-- Animated content -->
+  <text x="25" y="70" font-family="monospace" font-size="14" fill="#00fff0">
+    <tspan>$ cat about.txt</tspan>
+  </text>
+  
+  <text x="25" y="95" font-family="monospace" font-size="14" fill="#00fff0">
+    <tspan>Full-Stack Developer | IoT Architect</tspan>
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="1s" fill="freeze"/>
+  </text>
+  
+  <text x="25" y="120" font-family="monospace" font-size="14" fill="#27ca3f">
+    <tspan>✓ StitchOS - Textile RFID Platform</tspan>
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="2s" fill="freeze"/>
+  </text>
+  
+  <text x="25" y="145" font-family="monospace" font-size="14" fill="#27ca3f">
+    <tspan>✓ PickMyDrive - Used Car Platform</tspan>
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="2.5s" fill="freeze"/>
+  </text>
+  
+  <text x="25" y="170" font-family="monospace" font-size="14" fill="#27ca3f">
+    <tspan>✓ QuickBill &amp; CartCount</tspan>
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="3s" fill="freeze"/>
+  </text>
+  
+  <text x="25" y="205" font-family="monospace" font-size="14" fill="#ff00ff">
+    <tspan>$ echo "Open for collaboration!"</tspan>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="4s" fill="freeze"/>
+  </text>
+  
+  <text x="25" y="230" font-family="monospace" font-size="14" fill="#00fff0">
+    <tspan>Ready to build the future 🚀</tspan>
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="5s" fill="freeze"/>
+  </text>
+  
+  <!-- Blinking cursor -->
+  <rect x="25" y="245" width="12" height="16" fill="#00fff0">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" begin="6s"/>
+  </rect>
+</svg>

@@ -1,0 +1,29 @@
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="100" fill="#0d1117"/>
+  <g stroke="#161b22" stroke-width="1">
+    <!-- vertical lines -->
+    <line x1="20" y1="0" x2="20" y2="100"/>
+    <line x1="40" y1="0" x2="40" y2="100"/>
+    <line x1="60" y1="0" x2="60" y2="100"/>
+    <line x1="80" y1="0" x2="80" y2="100"/>
+    <line x1="100" y1="0" x2="100" y2="100"/>
+    <line x1="120" y1="0" x2="120" y2="100"/>
+    <line x1="140" y1="0" x2="140" y2="100"/>
+    <line x1="160" y1="0" x2="160" y2="100"/>
+    <line x1="180" y1="0" x2="180" y2="100"/>
+    <line x1="200" y1="0" x2="200" y2="100"/>
+    <line x1="220" y1="0" x2="220" y2="100"/>
+    <line x1="240" y1="0" x2="240" y2="100"/>
+    <line x1="260" y1="0" x2="260" y2="100"/>
+    <line x1="280" y1="0" x2="280" y2="100"/>
+    <!-- horizontal lines -->
+    <line x1="0" y1="20" x2="300" y2="20"/>
+    <line x1="0" y1="40" x2="300" y2="40"/>
+    <line x1="0" y1="60" x2="300" y2="60"/>
+    <line x1="0" y1="80" x2="300" y2="80"/>
+  </g>
+  <circle r="4" fill="#27ca3f">
+    <animateMotion dur="8s" repeatCount="indefinite" path="M10 10 H290 V90 H10 Z"/>
+  </circle>
+  <text x="150" y="98" text-anchor="middle" font-family="monospace" font-size="10" fill="#00fff0">contribution snake</text>
+</svg>
