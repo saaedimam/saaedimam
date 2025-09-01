@@ -1,0 +1,47 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <pattern id="rfidPattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#00fff0" stroke-width="1" opacity="0.3">
+        <animate attributeName="r" values="10;30;10" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;0.1;0.8" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </pattern>
+  </defs>
+  
+  <!-- Card background -->
+  <rect x="10" y="10" width="380" height="180" rx="15" fill="url(#cardGrad)" stroke="#00fff0" stroke-width="2"/>
+  <rect width="100%" height="100%" fill="url(#rfidPattern)" opacity="0.1"/>
+  
+  <!-- Project title -->
+  <text x="30" y="40" font-family="monospace" font-size="18" font-weight="bold" fill="#00fff0">🧵 StitchOS</text>
+  
+  <!-- Description -->
+  <text x="30" y="65" font-family="monospace" font-size="12" fill="#8b949e">IoT SaaS platform for real-time textile</text>
+  <text x="30" y="80" font-family="monospace" font-size="12" fill="#8b949e">RFID tracking and inventory management</text>
+  
+  <!-- Tech stack -->
+  <rect x="30" y="100" width="50" height="20" rx="10" fill="#00fff0" opacity="0.2"/>
+  <text x="55" y="113" text-anchor="middle" font-family="monospace" font-size="10" fill="#00fff0">React</text>
+  
+  <rect x="90" y="100" width="50" height="20" rx="10" fill="#ff00ff" opacity="0.2"/>
+  <text x="115" y="113" text-anchor="middle" font-family="monospace" font-size="10" fill="#ff00ff">Node.js</text>
+  
+  <rect x="150" y="100" width="50" height="20" rx="10" fill="#00aaff" opacity="0.2"/>
+  <text x="175" y="113" text-anchor="middle" font-family="monospace" font-size="10" fill="#00aaff">IoT</text>
+  
+  <!-- Status indicators -->
+  <circle cx="320" cy="40" r="6" fill="#27ca3f">
+    <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="335" y="45" font-family="monospace" font-size="10" fill="#27ca3f">Live</text>
+  
+  <!-- GitHub link -->
+  <rect x="250" y="150" width="120" height="25" rx="12" fill="none" stroke="#00fff0" stroke-width="1">
+    <animate attributeName="fill" values="none;rgba(0,255,240,0.1);none" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="310" y="167" text-anchor="middle" font-family="monospace" font-size="11" fill="#00fff0">View on GitHub</text>
+</svg>
