@@ -1,0 +1,16 @@
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cube" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00fff0"/>
+      <stop offset="100%" stop-color="#ff00ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" fill="#0d1117"/>
+  <g fill="url(#cube)" stroke="#161b22" stroke-width="1">
+    <rect x="40" y="120" width="40" height="40"/>
+    <rect x="90" y="90" width="40" height="70"/>
+    <rect x="140" y="60" width="40" height="100"/>
+    <rect x="190" y="30" width="40" height="130"/>
+  </g>
+  <text x="150" y="190" text-anchor="middle" font-family="monospace" font-size="12" fill="#00fff0">3D contributions</text>
+</svg>
