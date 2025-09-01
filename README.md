@@ -120,9 +120,13 @@
 
 <p align="center"><img src="assets/glitch-divider.svg" alt="Glitch Divider" width="100%"></p>
 
+<<<<<<< codex/deploy-enhanced-github-profile-with-svgs-9o0rud
+## 🐍 Contribution Snake & 3D
+=======
 ## 🐍 Contribution Snake + 3D
+>>>>>>> main
 <p align="center">
-  <img src="https://raw.githubusercontent.com/saaedimam/saaedimam/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake">
+  <img src="assets/contribution-snake.svg" width="100%" alt="Snake">
 </p>
 <p align="center">
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph">
@@ -156,12 +160,17 @@
 
 ## 🌌 Connect With The Vibe
 
+<<<<<<< codex/deploy-enhanced-github-profile-with-svgs-9o0rud
+<div align="center">
+
+=======
 <p align="center">
   <img src="assets/status-indicator.svg" alt="Live Status" width="400">
 </p>
 
 <div align="center">
 
+>>>>>>> main
 ### 🔗 Professional Links
 <a href="https://www.linkedin.com/in/saaedimam"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href="mailto:sayedimam.fahim@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
