@@ -193,9 +193,6 @@
 <img src="https://img.shields.io/github/followers/saaedimam?label=Vibe+Followers&style=flat-square&color=00fff0">
 <img src="https://img.shields.io/github/stars/saaedimam?label=Cosmic+Stars&style=flat-square&color=ff00ff">
 
-**Made with 💜 in Bangladesh 🇧🇩 | Powered by ☕ & 🎵**
+**Made By 💜 IoriImasu| Powered by ☕ & 🎵**
 
-</div>
-=======
->>>>>>> main
 
