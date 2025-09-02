@@ -1,11 +1,12 @@
 name: Generate Snake
-
+permissions:
+  contents: write
 on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
@@ -16,7 +17,8 @@ jobs:
           github_user_name: saaedimam
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - name: Push snake
+
+      - name: Push snake to `output` branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
