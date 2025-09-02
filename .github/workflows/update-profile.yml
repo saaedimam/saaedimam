@@ -1,7 +1,9 @@
 name: Update Profile
+permissions:
+  contents: write
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -9,16 +11,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Update README timestamp
         run: |
-          # Add timestamp to show last update
-          echo "<!-- Last updated: $(date) -->" >> README.md
-          
+          # Keep this idempotent to avoid noisy commits
+          ts="<!-- Last updated: $(date -u '+%Y-%m-%d %H:%M UTC') -->"
+          grep -q "Last updated:" README.md || echo "" >> README.md
+          # replace or append
+          if grep -q "Last updated:" README.md; then
+            sed -i 's/<!-- Last updated: .* -->/'"$ts"'/g' README.md
+          else
+            echo "$ts" >> README.md
+          fi
+
       - name: Commit and push if changed
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "🔄 Auto-update profile stats" || echo "No changes"
+          git diff --cached --quiet && echo "No changes" || git commit -m "chore: auto-update profile timestamp"
           git push
