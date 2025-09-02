@@ -1,23 +1,27 @@
 name: Update Profile
 permissions:
   contents: write
+
 on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: "update-profile-${{ github.ref }}"
+  cancel-in-progress: true
+
 jobs:
   update-profile:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
       - name: Update README timestamp
         run: |
-          # Keep this idempotent to avoid noisy commits
           ts="<!-- Last updated: $(date -u '+%Y-%m-%d %H:%M UTC') -->"
           grep -q "Last updated:" README.md || echo "" >> README.md
-          # replace or append
           if grep -q "Last updated:" README.md; then
             sed -i 's/<!-- Last updated: .* -->/'"$ts"'/g' README.md
           else
@@ -30,4 +34,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           git diff --cached --quiet && echo "No changes" || git commit -m "chore: auto-update profile timestamp"
+          # optional safety if branch moved:
+          git pull --rebase origin main || true
           git push
