@@ -22,20 +22,8 @@ Focus: agent orchestration, model integration, reliable execution, and productio
 ### [jervis](https://github.com/saaedimam/jervis)
 Local-first runtime and context operating system for AI agents.
 
-### [hermes-agent-config](https://github.com/saaedimam/hermes-agent-config)
-Agent configuration and model-routing for Hermes-style stacks.
-
-### [agent-potato](https://github.com/saaedimam/agent-potato)
-Experimental agent workspace — tool calling, memory, and task loops.
-
 ### [wrlds-ai-integration-5879](https://github.com/saaedimam/wrlds-ai-integration-5879)
 Production-oriented LLM app integration — routing, UI, and API wiring.
-
-### [Ioribrain](https://github.com/saaedimam/Ioribrain)
-AI-assisted knowledge and orchestration experiments in TypeScript.
-
-### [weft](https://github.com/saaedimam/weft)
-Security-first programming language experiments.
 
 ### [luckystorePOS](https://github.com/saaedimam/luckystorePOS)
 Retail POS / grocery ops stack — TypeScript admin and related tooling.
