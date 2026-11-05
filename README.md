@@ -4,26 +4,26 @@
 
 I design and build AI-powered systems that connect language models, software infrastructure, and real-world workflows.
 
-My engineering focus is on agent orchestration, model integration, reliable execution, and production-oriented AI applications.
+Focus: agent orchestration, model integration, reliable execution, and production-oriented AI — with clear evidence over hype.
 
 ---
 
 ## Engineering Focus
 
 - Agentic AI and multi-agent orchestration
-- LLM inference, routing, and provider abstraction
+- LLM inference, routing, fallbacks, and provider abstraction
 - Tool calling, MCP integrations, and workflow automation
-- RAG, embeddings, and knowledge retrieval
 - Secure API design and backend infrastructure
-- Local and cloud-based AI deployment (NVIDIA NIM · OpenRouter · open models)
+- Local and cloud AI deployment (NVIDIA NIM · OpenRouter · open models)
+- Defensive security engineering (least privilege, secrets, reversible change)
 
-## Selected Engineering Projects
+## Selected Projects
 
 ### [jervis](https://github.com/saaedimam/jervis)
-Local-first runtime and context operating system for AI agents — orchestration, context, and reliable execution loops.
+Local-first runtime and context operating system for AI agents.
 
 ### [hermes-agent-config](https://github.com/saaedimam/hermes-agent-config)
-Agent configuration and model-routing setup for Hermes-style agent stacks.
+Agent configuration and model-routing for Hermes-style stacks.
 
 ### [agent-potato](https://github.com/saaedimam/agent-potato)
 Experimental agent workspace — tool calling, memory, and task loops.
@@ -37,16 +37,20 @@ AI-assisted knowledge and orchestration experiments in TypeScript.
 ### [weft](https://github.com/saaedimam/weft)
 Security-first programming language experiments.
 
+### [luckystorePOS](https://github.com/saaedimam/luckystorePOS)
+Retail POS / grocery ops stack — TypeScript admin and related tooling.
+
 ## Technology Stack
 
-`Python` · `TypeScript` · `Go` · `FastAPI` · `Next.js` · `PostgreSQL`  
-`Docker` · `Supabase` · `GitHub Actions` · `MCP` · `NVIDIA NIM` · `OpenRouter`
+`Python` · `TypeScript` · `Go` · `FastAPI` · `Next.js` · `PostgreSQL` · `Supabase`  
+`Docker` · `Flutter` · `GitHub Actions` · `MCP` · `NVIDIA NIM` · `OpenRouter`
 
 ## Engineering Principles
 
 Reliability over hype.  
 Reproducibility over screenshots.  
-Working systems over demos.
+Working systems over demos.  
+Evidence before “done.”
 
 ## Activity
 
