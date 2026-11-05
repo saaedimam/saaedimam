@@ -17,16 +17,33 @@ Focus: agent orchestration, model integration, reliable execution, and productio
 - Local and cloud AI deployment (NVIDIA NIM · OpenRouter · open models)
 - Defensive security engineering (least privilege, secrets, reversible change)
 
-## Selected Projects
+## Portfolio — Selected Systems
 
-### [jervis](https://github.com/saaedimam/jervis)
-Local-first runtime and context operating system for AI agents.
+Full portfolio: [ai-systems-portfolio.netlify.app](https://ai-systems-portfolio.netlify.app)
 
-### [wrlds-ai-integration-5879](https://github.com/saaedimam/wrlds-ai-integration-5879)
-Production-oriented LLM app integration — routing, UI, and API wiring.
+### StitchOS
+**Role:** Co-founder · IoT · QR traceability for apparel manufacturing
+<!-- Placeholder: specific technical contributions -->
+<!-- Placeholder: status and verified outcomes (only add verified results) -->
 
-### [luckystorePOS](https://github.com/saaedimam/luckystorePOS)
-Retail POS / grocery ops stack — TypeScript admin and related tooling.
+### TextileTrack
+**Role:** Co-founder · RFID asset tracking for textiles
+<!-- Placeholder: specific technical contributions -->
+<!-- Placeholder: status and verified outcomes (only add verified results) -->
+
+### AI Agent Infrastructure
+**Role:** Co-founder · Agent orchestration and model routing
+Public work in this area: [jervis](https://github.com/saaedimam/jervis) — local-first runtime and context operating system for AI agents.
+<!-- Placeholder: problem addressed and specific technical contributions -->
+<!-- Placeholder: status and verified outcomes -->
+
+### [LuckyStorePOS](https://github.com/saaedimam/luckystorePOS)
+**Role:** Co-founder · Retail POS / grocery ops — TypeScript admin, Flutter mobile, Supabase
+<!-- Placeholder: problem addressed and specific technical contributions -->
+<!-- Placeholder: status and verified outcomes -->
+
+### Other public work
+- [wrlds-ai-integration-5879](https://github.com/saaedimam/wrlds-ai-integration-5879) — Production-oriented LLM app integration — routing, UI, and API wiring.
 
 ## Technology Stack
 
